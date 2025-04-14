@@ -8,3 +8,6 @@
 
 ## Deployment
 - [vLLM](https://docs.vllm.ai/en/stable/) -> library for LLM inference and serving
+
+## Training
+- [Lightning](https://lightning.ai) -> best training library -> works with transformers, PyTorch..
