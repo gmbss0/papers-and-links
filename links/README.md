@@ -12,3 +12,6 @@
 
 ## Training
 - [Lightning](https://lightning.ai) -> best to set-up training pipelines -> works with all major tooling libraries
+
+## Labeling
+- [Streamlit](https://streamlit.io) -> great for quickly building UIs for data labelling jobs
