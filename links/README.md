@@ -10,4 +10,4 @@
 - [vLLM](https://docs.vllm.ai/en/stable/) -> library for LLM inference and serving
 
 ## Training
-- [Lightning](https://lightning.ai) -> best training library -> works with transformers, PyTorch..
+- [Lightning](https://lightning.ai) -> best to set-up training pipelines -> works with all major tooling libraries
