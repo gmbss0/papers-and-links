@@ -1,5 +1,8 @@
 # Papers 2025
 
+## Large Language Diffusion Models
+- [LLaDA](https://arxiv.org/abs/2502.09992) -> Diffusion models can perform as good or putperform Auto-Regressive LLMs with similar compute!
+
 ## Reasoning Models / RL
 - [DeepSeekMath](https://arxiv.org/abs/2402.03300) -> GRPO was introduced here, interesting data collection pipeline
 - 
