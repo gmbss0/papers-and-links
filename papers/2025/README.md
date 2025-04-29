@@ -6,7 +6,7 @@
 
 ## Reasoning Models / RL
 - [DeepSeekMath](https://arxiv.org/abs/2402.03300) -> GRPO was introduced here, interesting data collection pipeline
-- 
+- [DeepSeek-R1](https://arxiv.org/abs/2501.12948) -> R1 training pipeline
 
 ## Transformer: Architecture and/or Training
 - [Attention sinks in Transformers](https://arxiv.org/abs/2504.02732) -> analysis of phenomenon, where transformers attend a lot to the first token in sequence
