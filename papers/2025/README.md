@@ -13,5 +13,8 @@
 - [DeepSeekV3 innovations](https://arxiv.org/pdf/2503.11486) -> List of new tricks: key-value joint embedding, expert segmentation and shared expert
 - [ByteLatentTransformer](https://arxiv.org/abs/2412.09871) -> Transformer that matches performance of token-based models, but encoding bytes
 
+## Computer Vision
+- [SAM 2](https://arxiv.org/abs/2408.00714) -> the main innovation is probably the data engine to collect training data for video segmentation +  6x faster than SAM on image segmentation
+
 ## not from 2025 but read first time this year...
 - [PagedAttention from vLLM](https://arxiv.org/abs/2309.06180) -> KV-Cache implementation that was used to build vLLM on top
