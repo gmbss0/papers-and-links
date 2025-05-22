@@ -18,3 +18,4 @@
 
 ## not from 2025 but read first time this year...
 - [PagedAttention from vLLM](https://arxiv.org/abs/2309.06180) -> KV-Cache implementation that was used to build vLLM on top
+- [Speculative Decoding](https://arxiv.org/abs/2211.17192) -> use small fast model to compute N tokens, then pass them in a batch to the big slow model and let it accept tokens or not
