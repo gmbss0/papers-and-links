@@ -16,5 +16,8 @@
 ## Training
 - [Lightning](https://lightning.ai) -> best to set-up training pipelines -> works with all major tooling libraries
 
+## Visualization
+- [JinaAI embeddings visualization](https://github.com/jina-ai/correlations) -> great tool to visualise cross-correlations of embeddings, you can easily filter based on thresholds, zoom-in ...
+
 ## Labeling
 - [Streamlit](https://streamlit.io) -> great for quickly building UIs for data labelling jobs
