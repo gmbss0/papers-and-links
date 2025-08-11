@@ -1,5 +1,8 @@
 # Papers 2025
 
+## LLM techniques
+- [CoT reasoning a mirage?](https://arxiv.org/abs/2508.01191) -> additional evidence that CoT is not "reasoning"; instead the authors refer to it as "structured pattern matching", as CoT performance quickly degrades even when going slightly beyond the training data distribution
+
 ## Large Language Diffusion Models
 - [LLaDA](https://arxiv.org/abs/2502.09992) -> Diffusion models can perform as good or outperform Auto-Regressive LLMs with similar compute!
 - [d1](https://arxiv.org/abs/2504.12216) -> diffuGRPO: method to add reasoning capabilities to diffusion LLMs. 
