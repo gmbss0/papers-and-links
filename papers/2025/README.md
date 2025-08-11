@@ -20,5 +20,6 @@
 - [SAM 2](https://arxiv.org/abs/2408.00714) -> The image embeddings of frames are conditioned on what they call a "memory-bank", which are the predictions and masks of past frames. This is also leveraged for the data engine. If between 2 frames SAM 2 loses the mask of an object, because it has the past masks in the memory bank, adding one-click on the object will often be enough for the model to recover the mask. If you would start from scratch you would probably need more clicks and here more clicks means less data you can label in the same time (they have created the largest video mask dataset available). 
 
 ## not from 2025 but read first time this year...
+- [Matryoshka Representation Learning](https://arxiv.org/pdf/2205.13147) -> allow single embedding to adapt to compute contraints of downstream task without the need to train seperate model per embedding size
 - [PagedAttention from vLLM](https://arxiv.org/abs/2309.06180) -> KV-Cache implementation that was used to build vLLM on top
 - [Speculative Decoding](https://arxiv.org/abs/2211.17192) -> use small fast model to compute N tokens, then pass them in a batch to the big slow model and let it accept tokens or not
