@@ -12,6 +12,7 @@
 - [baseten](https://www.baseten.co) -> show impressive latency / throughput for open-source deployments (either as API or deployments)
 - [vLLM](https://docs.vllm.ai/en/stable/) -> library for LLM inference and serving
 - [LMDeploy](https://github.com/InternLM/lmdeploy) -> library for LLM inference and serving
+- [Ollama](https://ollama.com) -> easy deployment of models (particularly quantized models)
 - [RayServe](https://www.anyscale.com/product/library/ray-serve) -> I love the entire Ray ecosystem, but the ray serve deployment of "applications" is particularly valuable
 - [Langfuse](https://langfuse.com) -> LLM Engineering: prompt-management, logging, evaluation...
 
