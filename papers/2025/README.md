@@ -1,5 +1,9 @@
 # Papers 2025
 
+## Information Retrieval
+- [Last but Not Late Interaction for Listwise Document Reranking](https://arxiv.org/abs/2509.25085) -> Documents to be reranked go all into the SAME transformer pass (not in a batch). They introduce document embeddings as document delimeter, that go into a lightweight projector. Finally, these are used as embeddings to compute cosine-similarity with the query embedding. Results seem to be close to qwen3-reranker-4B and better than the 0.6B reranker
+- [Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models](https://arxiv.org/abs/2506.05176) -> Family of embedding and reranking models of size 0.6B / 4B and 8B. Reranking is framed as a text generation problem where the LM gets the an instruction, a query and a document and is encouraged to output "yes" or "no". The probability for the next token being "yes" is used as reranking score. According to authors it is important to modify the instruction tailored to each task. This can have impact the recall by "1-5%".
+
 ## LLM techniques
 - [CoT reasoning a mirage?](https://arxiv.org/abs/2508.01191) -> additional evidence that CoT is not "reasoning"; instead the authors refer to it as "structured pattern matching", as CoT performance quickly degrades even when going slightly beyond the training data distribution
 
