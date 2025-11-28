@@ -21,6 +21,7 @@
 - [ByteLatentTransformer](https://arxiv.org/abs/2412.09871) -> Transformer that matches performance of token-based models, but encoding bytes
 
 ## Computer Vision
+-[DeepSeek OCR](https://arxiv.org/abs/2510.18234) -> While the OCR results seem to be great, the authors use OCR more as a proxy to show that it is possible to compress n text tokens in m vision tokens with m < n, whith little compression loss. They argue that this could be leveraged by LLMs in order to increase context size. My 2 cents: it seems obvious to me that we can potentially compress information in a more efficient way than by token level embeddings, but it is not obvious why this "more efficient storing" should be in the form of image tokens.
 - [SAM 2](https://arxiv.org/abs/2408.00714) -> The image embeddings of frames are conditioned on what they call a "memory-bank", which are the predictions and masks of past frames. This is also leveraged for the data engine. If between 2 frames SAM 2 loses the mask of an object, because it has the past masks in the memory bank, adding one-click on the object will often be enough for the model to recover the mask. If you would start from scratch you would probably need more clicks and here more clicks means less data you can label in the same time (they have created the largest video mask dataset available). 
 
 ## not from 2025 but read first time this year...
