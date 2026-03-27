@@ -1,6 +1,8 @@
 # Collection of links to Blogs, websites, documentions...
 
 ## General
+- [Sebastian Raschka LLM Gallery](https://sebastianraschka.com/llm-architecture-gallery/)-> great overview of SOTA LLM architectures
+- [Claude Code under the hood](https://huggingface.co/blog/kobe0938/context-engineering-reuse-pattern-claude-code) -> nice post about a reverse engineered architecture of claude code
 - [BentoML Blog](https://www.bentoml.com/blog) -> good Blog on AI applications, infrastructure, deployment etc..
 - [OLMoTrace](https://huggingface.co/papers/2504.07096) -> System to trace LLM output in training corpus in <5s -> can be usefule for fact-checking, memorisation ...
 
